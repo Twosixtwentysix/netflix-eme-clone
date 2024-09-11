@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.firstmain{
+    background-image:
+                linear-gradient(rgba(0, 0, 0, 0.885), rgba(0, 0, 0, 0.441)),
+                url('zjgs096khv591.jpg');
+    background-repeat: no-repeat;
+    height: 43rem;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
+.navcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.navcontainer h1 {
+    margin-left:7rem;
+    color: red;
+    font-size: 2.5rem;
+}
+
+.navbar ul{
+    display: flex;
+    margin-right:10rem;
+   
+
+}.navbar ul li{
+    margin-right:2rem;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li:nth-child(1){
+    border: 2px solid white;
+    padding: 0.5rem;
+    width: 5rem;
+}
+.navbar ul li:nth-child(2){
+    padding: 0.5rem;
+    background-color: red;
+    border-radius: .3rem;
+}
+.upContent {
+    display: flex;
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.textcontent{
+    color: white;
+    text-align: center;
+}
+.textcontent h1{
+    font-size: 3.5rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+}
+.textcontent p:nth-child(2){
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
+    padding:.5rem;
+}
+.textcontent p:nth-child(3){
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    padding:.5rem;
+}
+form input:nth-child(1){
+    width: 20rem ;
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    opacity: 2;
+}
+form input:nth-child(2){
+ background-color: red;
+ color: white;
+ border: none;
+ height: 3rem ;
+ width: 12rem;
+ margin-left: 20px;
+}
+.secondmain{
+    margin-top: 3rem;
+    border-top: 10px solid rgba(255, 0, 0, 0.637);
+    background-image: linear-gradient(to top, #000000 95%, #02235e 100%);
+    width: auto;
+    height: auto;
+    border-radius: 90%/90px 90px 0 0;
+}
+.firstcontainer h3{
+    padding: 3rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-family: "Work Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+
+}
+.secondcontainer {
+    margin: auto;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.slider {
+    
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+.colum {
+    width: 20%;
+    padding: 10px; 
+    background: linear-gradient(
+        325deg,
+        rgba(153, 67, 67, 0.68) 0%,
+        rgba(35, 24, 89, 0.77) 54%
+      );
+      background-blend-mode: normal;
+    height: 300px;
+    margin: 1rem;
+    border-radius: 1rem;
+
+
+  }
+  .row{
+    justify-content: center;
+    display: flex;
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Work Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  }
+.colum p span {
+margin-top: 5rem;
+font-weight: 100;
+font-size: 1rem;
+}
+.thirdcontainer h1{
+    color: white;
+    margin-left: 7rem;
+    font-family: "Work Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+    
+}
+.thirdcontainer {
+    margin-top: 5rem;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+
+}
+.search{
+   text-align: center;
+}
+.search input:nth-child(2){
+    width: 40rem;
+    height: 4rem;
+    background-color: black;  
+    border: 1px solid rgb(169, 10, 10);
+    border-radius: 5px;
+}
+.search input:nth-child(3){
+    width: 10rem;
+    height: 4rem;
+    background-color: rgb(141, 9, 9);  
+    border: none;
+    border-radius: 5px;
+}
+.footertextcontent {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+.footertext a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    padding: 1rem;
+}
+
+.footertextcontent td a{
+    color: rgba(255, 255, 255, 0.425);
+    margin: 5rem;
+    font-size: 1rem;
+    height: 100%;
+    
+}
+.footertextcontent td {
+    padding: 1.5rem;
+}
+.footercontainer h1 {
+    color: rgba(135, 61, 61, 0.621);
+    font-size: 1rem;
+}
+.footercontainer h1 a{
+    color: red;
+    text-decoration: none;
+}
+
+
+
